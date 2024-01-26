@@ -6,4 +6,9 @@ header
     color: white; /* white text color */
  }
 
+ header h1
+ {
+    size: 40px;
+ }
+
  
