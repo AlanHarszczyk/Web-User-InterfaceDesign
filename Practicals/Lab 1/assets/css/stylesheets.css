@@ -1,14 +1,41 @@
 header 
 {
-    padding: 80px; /* some padding */
-    text-align: center; /* center the text */
-    background: #1abc9c; /* green background */
-    color: white; /* white text color */
+    padding: 80px; /* some padding*/
+    text-align: center; /* center the text*/
+    background: #06c200; /*green background*/
+    color: white; /*white text color*/
+   
  }
 
  header h1
  {
-    size: 40px;
+    font-size: 40px;/*size*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;/*font family/style*/
  }
 
- 
+ nav
+ {
+    overflow: hidden;
+    background-color: #333;
+ }
+
+ nav a 
+ {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+
+  nav a.right 
+  {
+    float: right;
+  }
+  
+  nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
