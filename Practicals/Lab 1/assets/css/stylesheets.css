@@ -41,4 +41,16 @@ header
     background-color: #ddd;
     color: black;
   }
-  
+
+aside
+{
+   padding: 80px; /* some padding*/
+    text-align: center; /* center the text*/
+    background: #06c200; /*green background*/
+    color: white; /*white text color*/
+}
+
+  img 
+{
+   border-radius: 50%;
+}
