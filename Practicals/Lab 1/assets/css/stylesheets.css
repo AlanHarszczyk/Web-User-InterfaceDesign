@@ -72,7 +72,7 @@ article
    padding-top: 20px;
    padding-right: 20px;
    float: right;
-   
+   background-color: aliceblue;
 }
 
 article h1
@@ -134,11 +134,9 @@ article h5
 
 aside
 {
-   padding: 80px; /* some padding*/
+    padding: 80px; /* some padding*/
     text-align: center; /* center the text*/
-    background: #06c200; /*green background*/
     color: white; /*white text color*/
-
     height: 100%;
     width: 160px;
     position: left;
@@ -169,6 +167,30 @@ aside p
 {
    font-size: smaller;
    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer
+{
+   padding: 80px; /* some padding*/
+   text-align: center; /* center the text*/
+   background: #06c200; /*green background*/
+   color: white; /*white text color*/
+   text-align: left;
+   
+}
+
+footer h
+{
+   font-size: smaller;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: left;
+}
+
+footer p
+{
+   font-size: smaller;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: left;
 }
 
   img
