@@ -44,6 +44,7 @@ header
 
   section
   {
+   margin-top: 20px;
    float: right;
    padding: 80px; /* some padding*/
     text-align: center; /* center the text*/
@@ -67,7 +68,68 @@ section p
 
 article
 {
+   padding-left: 20px;
+   padding-top: 20px;
+   padding-right: 20px;
    float: right;
+   
+}
+
+article h1
+{
+   text-align: center;
+   padding-left: 10px;
+   padding-top: 20px;
+   padding-right: 10px;
+   font-size: 30px;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+article p
+{
+   font-size: large;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+article h2
+{
+   text-align: center;
+   padding-left: 10px;
+   padding-top: 20px;
+   padding-right: 10px;
+   font-size: 30px;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+article h3
+{
+   text-align: center;
+   padding-left: 10px;
+   padding-top: 20px;
+   padding-right: 10px;
+   font-size: 30px;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+article h4
+{
+   text-align: center;
+   padding-left: 10px;
+   padding-top: 20px;
+   padding-right: 10px;
+   font-size: 30px;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+
+article h5
+{
+   text-align: center;
+   padding-left: 10px;
+   padding-top: 20px;
+   padding-right: 10px;
+   font-size: 30px;
+   font-family: 'Times New Roman', Times, serif;
 }
 
 aside
@@ -109,10 +171,52 @@ aside p
    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-  img 
+  img
 {
    border-radius: 50%;/*curves into cilcular*/
    background-color: #aaa;
    width: 100%;
-  padding: 20px;
+   padding: 20px;
+}
+
+img1
+{
+   border-radius: 8px;
+   box-shadow: #333333;
+}
+
+img2
+{
+   border-radius: 8px;
+   box-shadow: #333333;
+}
+
+img3
+{
+   border-radius: 8px;
+   box-shadow: #333333;
+}
+
+img4
+{
+   border-radius: 8px;
+   box-shadow: #333333;
+}
+
+img5
+{
+   border-radius: 8px;
+   box-shadow: #333333;
+}
+
+span
+{
+   color: #06c200;
+   font-weight: bold;
+   
+}
+
+a
+{
+   text-decoration: none;
 }
