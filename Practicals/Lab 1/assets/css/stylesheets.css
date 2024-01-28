@@ -175,7 +175,7 @@ footer
    text-align: center; /* center the text*/
    background: #06c200; /*green background*/
    color: white; /*white text color*/
-   text-align: left;
+   text-align: center;
    
 }
 
@@ -183,17 +183,17 @@ footer h
 {
    font-size: smaller;
    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   text-align: left;
+   text-align: center;
 }
 
 footer p
 {
    font-size: smaller;
    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   text-align: left;
+   text-align: center;
 }
 
-  img
+img
 {
    border-radius: 50%;/*curves into cilcular*/
    background-color: #aaa;
