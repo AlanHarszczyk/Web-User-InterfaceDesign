@@ -200,7 +200,7 @@ footer p
    text-align: center;
 }
 
-img
+.founder
 {
    border-radius: 50%;/*curves into cilcular*/
    background-color: #aaa;
@@ -208,34 +208,50 @@ img
    padding: 20px;
 }
 
-img1
+.guinea_pig
 {
    border-radius: 8px;
    box-shadow: #333333;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   
 }
 
-img2
+.huskey
 {
    border-radius: 8px;
    box-shadow: #333333;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
 }
 
-img3
+.snake
 {
    border-radius: 8px;
    box-shadow: #333333;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
 }
 
-img4
+.goldfish
 {
    border-radius: 8px;
    box-shadow: #333333;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
 }
 
-img5
+.cat
 {
    border-radius: 8px;
    box-shadow: #333333;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 span
