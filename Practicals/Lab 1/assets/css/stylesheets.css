@@ -179,7 +179,14 @@ footer
    
 }
 
-footer h
+footer h1
+{
+   font-size: smaller;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: center;
+}
+
+footer h2
 {
    font-size: smaller;
    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
