@@ -1,3 +1,4 @@
+    /*Header Area*/
 header 
 {
     padding: 80px; /* some padding*/
@@ -13,6 +14,7 @@ header
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;/*font family/style*/
  }
 
+     /*Nav Area*/
  nav
  {
     overflow: hidden; /*specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area*/
@@ -42,6 +44,8 @@ header
     color: black;
   }
 
+    /*Section Area*/
+
   section
   {
    margin-top: 20px;
@@ -65,7 +69,7 @@ section p
     font-size: 10px;/*size*/
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
+   /*Article Area*/
 article
 {
    padding-left: 20px;
@@ -132,6 +136,8 @@ article h5
    font-family: 'Times New Roman', Times, serif;
 }
 
+  /*Aside Area*/
+
 aside
 {
     padding: 80px; /* some padding*/
@@ -169,6 +175,8 @@ aside p
    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
+  /*Footer Area*/
+
 footer
 {
    padding: 80px; /* some padding*/
@@ -200,6 +208,7 @@ footer p
    text-align: center;
 }
 
+  /*images*/
 .founder
 {
    border-radius: 50%;/*curves into cilcular*/
@@ -254,6 +263,8 @@ footer p
    margin-right: auto;
 }
 
+  /*Highlights*/
+
 span
 {
    color: #06c200;
@@ -261,7 +272,22 @@ span
    
 }
 
+  /*Links*/
 a
 {
    text-decoration: none;
+}
+
+  /*Form Area*/
+form
+{
+   
+   text-align: left; /* center the text*/
+   color: rgb(0, 0, 0); /*white text color*/ 
+}
+
+form p
+{
+   font-size: large;
+   font-family: 'Times New Roman', Times, serif;
 }
