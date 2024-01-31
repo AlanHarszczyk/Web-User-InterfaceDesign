@@ -36,16 +36,53 @@
     <h2>Adoption-Form</Form></h2>
 
     <form>
-            <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname"><br><br>
-            <label for="sname">Surname:</label><br>
-            <input type="text" id="sname" name="sname"><br><br>
-            <label for="e-mail">E-mail:</label><br>
-            <input type="text" id="e-mail" name="e-mail"><br><br>
-            <label for="pnum">Phone number:</label><br>
-            <input type="text" id="pnum" name="pnum"><br><br>
+
+        <input type="text" name="name" placeholder="Enter your name">
+            
+        <input type="text" name="surname" placeholder="Enter your surname">
+
+            <input type="email" name="email" placeholder="Enter your email">
+            
+            <input type="number" name="phonenumber" placeholder="Enter your phonenumber">
+
+            <p>Have you ever adopted a pet before?:</p>
+            <input type="checkbox" id="yes" name="yes/no" value="yes">
+            <label for="yes">Yes</label>
+
+            <input type="checkbox" id="no" name="yes/no" value="no">
+            <label for="no">No</label>
+
+            <p>Have you existing pets?:</p>
+            <input type="checkbox" id="yes2" name="yes/no2" value="yes2">
+            <label for="yes2">Yes</label>
+
+            <input type="checkbox" id="no2" name="yes/no2" value="no2">
+            <label for="no2">No</label>
+
+            <p>How many pets if answered yes:</p>
+            <input type="number" name="pets" min="1" max="10">
+
+            <p>What kind of pet do you want?:</p>
+            <input type="checkbox" id="dog" name="dog" value="dog">
+            <label for="dog">Dog</label>
+
+            <input type="checkbox" id="cat" name="cat" value="cat">
+            <label for="cat">Cat</label>
+
+            <input type="checkbox" id="reptile" name="reptile" value="reptile">
+            <label for="reptile">Reptile</label>
+
+            <input type="checkbox" id="bird" name="bird" value="bird">
+            <label for="bird">Bird</label>
+
+            <input type="checkbox" id="rodent" name="rodent" value="rodent">
+            <label for="rodent">Rodent</label>
+
+            <input type="checkbox" id="fish" name="fish" value="fish">
+            <label for="fish">Fish</label><br>
+           
             <input type="submit" value="Submit">
-          </form>
+          
     </form>
     
 </article2>
