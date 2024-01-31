@@ -278,6 +278,16 @@ a
    text-decoration: none;
 }
 
+/*Form Section*/
+  /*Article 2 Area*/
+article2 h1
+{
+   font-size: 40px;
+   color: #06c200;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+
   /*Form Area*/
 form
 {
@@ -285,6 +295,7 @@ form
    text-align: left; /* center the text*/
    color: rgb(0, 0, 0); /*white text color*/ 
 }
+
 
 form p
 {
