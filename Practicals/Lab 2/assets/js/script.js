@@ -23,4 +23,3 @@ if (!email.match(pattern))
     alert('Please enter a valid email address!');
 }
 
-
