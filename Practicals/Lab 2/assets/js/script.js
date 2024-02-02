@@ -24,4 +24,3 @@ if (!email.match(pattern))
 }
 
 
-
