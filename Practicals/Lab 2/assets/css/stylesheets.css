@@ -145,7 +145,6 @@ aside
     color: white; /*white text color*/
     height: 100%;
     width: 160px;
-    position: left;
     background-color: #111;
     overflow-x: hidden;
     padding-top: 20px;
@@ -220,7 +219,6 @@ footer p
 .guinea_pig
 {
    border-radius: 8px;
-   box-shadow: #333333;
    display: block;
    margin-left: auto;
    margin-right: auto;
@@ -230,7 +228,6 @@ footer p
 .huskey
 {
    border-radius: 8px;
-   box-shadow: #333333;
    display: block;
    margin-left: auto;
    margin-right: auto;
@@ -239,7 +236,6 @@ footer p
 .snake
 {
    border-radius: 8px;
-   box-shadow: #333333;
    display: block;
    margin-left: auto;
    margin-right: auto;
@@ -248,7 +244,6 @@ footer p
 .goldfish
 {
    border-radius: 8px;
-   box-shadow: #333333;
    display: block;
    margin-left: auto;
    margin-right: auto;
@@ -257,7 +252,6 @@ footer p
 .cat
 {
    border-radius: 8px;
-   box-shadow: #333333;
    display: block;
    margin-left: auto;
    margin-right: auto;
@@ -280,7 +274,7 @@ a
 
 /*Form Section*/
   /*Article 2 Area*/
-article2 h1
+.Adoption_Form h1
 {
    font-size: 40px;
    color: #06c200;
@@ -301,4 +295,13 @@ form p
 {
    font-size: large;
    font-family: 'Times New Roman', Times, serif;
+}
+
+input[type="submit"]
+{
+   padding: 10px 20px;
+   margin: 10px;
+   border: 1px solid black;
+   background-color: beige;
+   border-radius: 50%;
 }

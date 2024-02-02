@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Enniscorthy Animal Adoption Centre</title>
         <link href="assets/css/stylesheets.css" rel="stylesheet">
-        <script src="assets\js\script.js"></script>
+        <script src="assets/js/script.js"></script>
     </head>
     <body>
        
@@ -24,26 +24,23 @@
     <a href="#" class="right">Contact</a>
    </nav>
 
-<section2>
-    
-</section2>
-
-<aside2>
-
-</aside2>
-
-<article2>
+ 
+<div class = "adoption-form">
     <h1>Adoption-Form</h1>
 
     <form>
 
-            <input type="text" name="name" placeholder="Enter your name">
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+            <label for="name"></label>
             
-            <input type="text" name="surname" placeholder="Enter your surname"><br>
+            <input type="text" id="surname" name="surname" placeholder="Enter your surname"><br>
+            <label for="surname"></label>
 
-            <input type="email" name="email" placeholder="Enter your email"><br>
-            
-            <input type="text" name="phonenumber" placeholder="Enter your phonenumber">
+            <input type="email" id="email" name="email" placeholder="Enter your email"><br>
+            <label for="email"></label>
+
+            <input type="text" id="phonenumber" name="phonenumber" placeholder="Enter your phonenumber">
+            <label for="phonenumber"></label>
 
             <p>Have you ever adopted a pet before?:</p>
             <input type="checkbox" id="yes" name="yes/no" value="yes">
@@ -84,8 +81,8 @@
             <input type="submit" value="Submit">
           
     </form>
-
-</article2>
+    
+</div>
 
  <footer>
      <h1>Author:Alan Harszczyk</h1>
