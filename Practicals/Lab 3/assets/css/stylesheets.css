@@ -178,16 +178,15 @@ aside p
 
 footer
 {
-   padding: 80px; /* some padding*/
-   text-align: center; /* center the text*/
+   padding: 10px;
    background: #06c200; /*green background*/
    color: rgb(0, 0, 0); /*black text color*/
-   text-align: center;
-   
+   text-align: center;  
 }
 
 footer h1
 {
+   margin-top: 3px;
    font-size: smaller;
    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    text-align: center;
@@ -195,6 +194,7 @@ footer h1
 
 footer h2
 {
+   margin-top: 3px;
    font-size: smaller;
    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    text-align: center;
@@ -202,6 +202,7 @@ footer h2
 
 footer p
 {
+   margin-top: 5px;
    font-size: smaller;
    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    text-align: center;
@@ -352,6 +353,11 @@ table
    font-size: 30px;
 }
 
+.Body
+{
+   margin-bottom: 10px;
+}
+
 .Titler h1
 {
     font-size: 40px;/*size*/
@@ -366,17 +372,31 @@ table
    
 }
 
+.Body p1
+{
+   font-size: 17px; 
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .Body h2
 {
-   font-size: 25px;/*size*/
+   font-size: 25px; 
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
-.Body p
+.Body p2
 {
-   font: size 20px; ;
+   font-size: 17px;  
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Body h3
+{
+   text-align: center;
+   font-size: 25px; 
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: #06c200;
 }
 
 .Logo
@@ -388,10 +408,70 @@ table
    
 }
 
-.Body h3
+.Body p3
+{
+   font-size: 17px;  
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Body h4
 {
    text-align: center;
-   font: size 25px; ;
+   font-size: 25px;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    color: #06c200;
+}
+
+.Body p4
+{
+   font-size: 17px;  
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+
+.Body h5
+{
+   text-align: center;
+   font-size: 25px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: #06c200;
+}
+
+.Pets-get-help
+{
+   border-radius: 8px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 30px;
+}
+
+.Body p5
+{
+   font-size: 17px;  
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+
+.Body h6
+{
+   text-align: center;
+   font-size: 25px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: #06c200;
+}
+
+.Dog-before-vs-after
+{
+   border-radius: 8px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 30px;
+}
+
+.Body p6
+{
+   font-size: 17px; 
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
