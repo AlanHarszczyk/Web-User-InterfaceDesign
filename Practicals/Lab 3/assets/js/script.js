@@ -4,22 +4,46 @@ window.onload = function()
     alert('Thank you for visting and supporting our efforts');
 };
 
-document.querySelector('header').addEventListener('click',function()
+function datasaver()
 {
-   this.style.color = 'black';
-});
 
-/*empty text*/
-if(document.getElementById('text-input').value === ' ')
-{
-    alert('Text input cannot be empty!');
+let username = document.getElementById("username").value;
+let surname = document.getElementById("surname").value;
+let email = document.getElementById("email").value;
+let phonenumber = document.getElementById("phonenumber").value;
+
+    alert("Your data is being saved");
+console.log(document.getElementById("username").value)
+console.log(document.getElementById("surname").value)
+console.log(document.getElementById("email").value)
+console.log(document.getElementById("phonenumber").value)
+
+  localStorage.setItem("username" , username);
+  localStorage.setItem("surname" , surname);
+  localStorage.setItem("email" , email);
+  localStorage.setItem("phonenumber" , phonenumber);
+  
 }
 
-/*check for email*/
-var email = document.getElementById('email-input').value;
-var pattern = /^[^ ]+@[^ ]+\[a-z]{2,3}$/;
-if (!email.match(pattern)) 
+function retrieveData()
 {
-    alert('Please enter a valid email address!');
+  
+    if(localStorage.getItem("username")!="")
+    {
+        let username = localStorage.getItem("username");
+        let surname = localStorage.getItem("surname");
+        let email= localStorage.getItem("email");
+        let phonenumer = localStorage.getItem("phonenumber");
+        console.log("username" + username);
+        console.log("surname" + surname);
+        console.log("email" + email);
+        console.log("phonenumber" + phonenumer);
+    }
+
+    else
+    {
+        alert('Please enter valid details!');
+    }
+
 }
 
