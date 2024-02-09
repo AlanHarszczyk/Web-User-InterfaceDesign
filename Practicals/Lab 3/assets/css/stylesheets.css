@@ -476,3 +476,15 @@ table
    font-size: 17px; 
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+@media (max-width: 600px) {
+   .aside
+    {
+     width: 100%;
+    }
+    .article
+    {
+      width: 100%;
+    }
+   
+ }
