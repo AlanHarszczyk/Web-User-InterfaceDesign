@@ -50,8 +50,10 @@
     </p>
   </div>
 
-  <div class = "donation-form"></div>
+<div class = "donation-form">
     <h1>Donation-Form</h1>
+    <p>It would help us a lot if you donated via this form.
+  
 
     <form>
 
@@ -67,14 +69,16 @@
             <input type="text" id="phonenumber" name="phonenumber" placeholder="Enter your phonenumber">
             <label for="phonenumber"></label>
 
-          
+            <input type="number" id="cardnumber" name="cardnumber" placeholder="Enter your cardnumber">
+            <label for="cardnumber"></label>
 
-            <input type="checkbox" id="fish" name="fish" value="fish">
-            <label for="fish">Fish</label><br>
-           
+            <input type="number" id="payment-amount" name="payment-amount" placeholder="Donation"  min="1" max="10000000">
+            <label for="payment-amount"></label><br>
+
             <input type="submit" onclick="datasaver()" value="Submit">
              
     </form>
+</div>
 
 
    <footer>
