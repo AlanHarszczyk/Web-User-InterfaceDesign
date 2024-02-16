@@ -4,6 +4,7 @@ window.onload = function()
     alert('Thank you for visting and supporting our efforts');
 };
 
+/*form-data*/
 function datasaver()
 {
 
@@ -23,7 +24,7 @@ console.log(document.getElementById("phonenumber").value)
   localStorage.setItem("email" , email);
   localStorage.setItem("phonenumber" , phonenumber);
   
-}
+};
 
 function retrieveData()
 {
@@ -45,16 +46,11 @@ function retrieveData()
         alert('Please enter valid details!');
     }
 
-}
+};
 
 /*sound effect*/
-
-let sound = new Audio("C:\Users\C00285418\Desktop\New folder\Web-User-InterfaceDesign\Practicals\Lab 4\assets\sound effects\bark.wav");//sound effect
-
-function myFun()
+function soundEffect()
 {
-    alert("test");
+    let sound = new Audio("assets/sound-effects/bark.wav");//sound effect
     sound.play();
-}
-    
-
+};
