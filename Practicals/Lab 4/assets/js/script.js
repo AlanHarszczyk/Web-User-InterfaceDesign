@@ -46,3 +46,15 @@ function retrieveData()
     }
 
 }
+
+/*sound effect*/
+
+let sound = new Audio("C:\Users\C00285418\Desktop\New folder\Web-User-InterfaceDesign\Practicals\Lab 4\assets\sound effects\bark.wav");//sound effect
+
+function myFun()
+{
+    alert("test");
+    sound.play();
+}
+    
+
