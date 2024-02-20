@@ -54,3 +54,13 @@ function soundEffect()
     let sound = new Audio("assets/sound-effects/bark.wav");//sound effect
     sound.play();
 };
+
+/*meant to fadeout ~ needs to be fixed*/
+$("#footer p").fadeOut();
+
+/*meant to retrieve data from an API*/
+axios.get("file:///C:/Users/C00285418.SETU/Desktop/New%20folder/Web-User-InterfaceDesign/Practicals/Lab%205/form.html")
+.then(response =>
+    {
+        console.log(response.data);
+    });
