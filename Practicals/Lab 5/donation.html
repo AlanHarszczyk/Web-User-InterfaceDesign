@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="eng">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Alan Harszczyk">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Enniscorthy Animal Adoption Centre</title>
+        <link href="assets/css/stylesheets.css" rel="stylesheet">
+        <script src="assets/js/script.js"></script>
+    </head>
+    <body>
+       
+   <header>
+      <h1>Enniscorthy Animal Shelter</h1>
+   </header>
+
+   <nav>
+    <a href="index.html">Home</a>
+    <a href="about-us.html">About Us</a>
+    <a href="donation.html" onclick="soundEffect()">Donation</a>
+    <a href="form.html">Adoption Form</a>
+
+    <a href="contact.html" class="right">Contact</a>
+   </nav>
+   
+   <video width="100%" height="500" controls id="adoptVid">
+    <source src="assets/videos/pexels-mikhail-nilov-7474507 (1080p).mp4" type="video/mp4">
+    your web does not support this video
+   </video>
+
+  <div class="Filler">
+    <h1>With your support we can achieve goals such as this.</h1>
+    <p>This is Bob who has been in rough conditions since birth however with your help we were abe to find him a new safe home.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed posuere magna. 
+        Fusce ut risus ex. Nam scelerisque turpis quis dui molestie, ultrices sodales sem pretium.
+        Donec viverra rhoncus finibus. Donec id malesuada sem. Ut dignissim leo et eleifend iaculis.
+        Sed et facilisis libero. Nulla sed ullamcorper turpis.
+        Sollicitudin turpis cursus malesuada lobortis. 
+        Integer facilisis augue leo, ac rutrum magna scelerisque,estibulum aliquet imperdiet nisi quis fermentum.
+        Phasellus sit amet pulvinar sem, sit amet pharetra sem. Fusce vel ornare justo.
+        Nullam suscipit, diam et consequat blandit, justo leo gravida diam, sed hendrerit nisi ante in risus.
+        Vestibulum blandit augue sit amet mi congue, at commodo ante laoreet. Morbi auctor est ac magna maximus, vitae sodales leo dignissim.
+        Aliquam tincidunt, ipsum a faucibus consectetur, elit nulla tincidunt ligula, a condimentum sapien magna vitae diam.
+        Aliquam ultrices tortor a elit rhoncus, eu finibus leo imperdiet.
+        Quisque mattis tristique finibus. Quisque aliquet elit et malesuada mollis.
+        Suspendisse eget accumsan lorem, sed tristique felis. Sed dolor turpis, rhoncus non dolor quis, sodales egestas turpis.
+        Vivamus congue quis nisl quis convallis.
+        Aenean eget diam et eros tristique aliquet sed bibendum ligula.
+    </p>
+  </div>
+
+<div class = "donation-form">
+    <h1>Donation-Form</h1>
+    <p>It would help us a lot if you donated via this form.
+  
+
+    <form>
+
+            <input type="text" id="username" name="username" placeholder="Enter your name">
+            <label for="username"></label>
+            
+            <input type="text" id="surname" name="surname" placeholder="Enter your surname"><br>
+            <label for="surname"></label>
+
+            <input type="email" id="email" name="email" placeholder="Enter your email"><br>
+            <label for="email"></label>
+
+            <input type="text" id="phonenumber" name="phonenumber" placeholder="Enter your phonenumber">
+            <label for="phonenumber"></label>
+
+            <input type="number" id="cardnumber" name="cardnumber" placeholder="Enter your cardnumber">
+            <label for="cardnumber"></label>
+
+            <input type="number" id="payment-amount" name="payment-amount" placeholder="Donation"  min="1" max="10000000">
+            <label for="payment-amount"></label><br>
+
+            <input type="submit" onclick="datasaver()" value="Submit">
+             
+    </form>
+</div>
+
+
+   <footer>
+    <h1>Author:Alan Harszczyk</h1>
+    <h2>Copyright Act</h2>
+    <p>Lorem ipsum dolor sit amet</p>
+</footer>
+
+</body>
+</html>
