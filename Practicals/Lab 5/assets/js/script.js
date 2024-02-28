@@ -26,6 +26,25 @@ console.log(document.getElementById("phonenumber").value)
   
 };
 
+function validate(){
+	var value = $("phonenumber").val();
+  
+  var regex = new RegExp('^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})|(^[0-9]{10})+$');
+  
+  if(value){
+  		 if(!regex.test(value)){
+          $("#error").text("Please enter valid email address or phone number.")
+       }else{
+         $("#error").text('')
+       }
+  }else{
+   	$("#error").text('This field is required.')
+  }
+ 	
+
+}
+
+
 function retrieveData()
 {
   
@@ -56,7 +75,11 @@ function soundEffect()
 };
 
 /*meant to fadeout ~ needs to be fixed*/
-$("#footer p").fadeOut();
+$( "button" ).on( "button", function() {
+    $( "button" ).fadeOut( "slow", function() {
+      // Animation complete.
+    });
+  });
 
 /*meant to retrieve data from an API*/
 axios.get("file:///C:/Users/C00285418.SETU/Desktop/New%20folder/Web-User-InterfaceDesign/Practicals/Lab%205/form.html")

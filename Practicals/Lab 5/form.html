@@ -38,7 +38,7 @@
             <input type="email" id="email" name="email" placeholder="Enter your email"><br>
             <label for="email"></label>
 
-            <input type="text" id="phonenumber" name="phonenumber" placeholder="Enter your phonenumber">
+            <input type="number" id="phonenumber" name="phonenumber" placeholder="Enter your phonenumber">
             <label for="phonenumber"></label>
 
             <p>Have you ever adopted a pet before?:</p>
@@ -81,7 +81,8 @@
              
     </form>
 
-    <button id="button" onclick="retrieveData()">load data</button>
+    <button id="button" onclick="retrieveData()" ondblclick="validate()">load data</button>
+    
 
  <footer>
      <h1>Author:Alan Harszczyk</h1>
