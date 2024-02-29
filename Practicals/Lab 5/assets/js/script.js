@@ -75,11 +75,12 @@ function soundEffect()
 };
 
 /*meant to fadeout ~ needs to be fixed*/
-$( "button" ).on( "button", function() {
-    $( "button" ).fadeOut( "slow", function() {
-      // Animation complete.
-    });
-  });
+$(document).ready(function(){
+$("#button").click(function(){
+  $("#button").fadeOut();
+});
+
+});
 
 /*meant to retrieve data from an API*/
 axios.get("file:///C:/Users/C00285418.SETU/Desktop/New%20folder/Web-User-InterfaceDesign/Practicals/Lab%205/form.html")
