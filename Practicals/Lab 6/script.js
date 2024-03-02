@@ -9,6 +9,7 @@ document.getElementById('submitBtn').addEventListener('click', function() {
 // Attach event listeners to sorting buttons for sorting by city name or temperature
 document.getElementById('sortByCity').addEventListener('click', sortByCity);
 document.getElementById('sortByTemp').addEventListener('click', sortByTemperature);
+document.getElementById("sortByCondition").addEventListener("click", sortByCondition);
 
 // Function to fetch weather data from OpenWeatherMap API for a given city
 function fetchWeatherData(city) {
@@ -48,6 +49,7 @@ function createWeatherLog(data) {
     // Assign class names for styling purposes
     cityName.className = "city";
     temperature.className = "temperature";
+    conditions.className = "condition";
 
     // Set the content of the elements based on the weather data
     cityName.textContent = data.name;
