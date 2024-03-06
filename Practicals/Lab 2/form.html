@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Enniscorthy Animal Adoption Centre</title>
         <link href="assets/css/stylesheets.css" rel="stylesheet">
-        <script src="assets/js/script.js"></script>
+      
     </head>
     <body>
        
@@ -18,20 +18,19 @@
    <nav>
     <a href="index.html">Home</a>
     <a href="about-us.html">About Us</a>
-    <a href="news.html">News</a>
+    <a href="donation.html">Donation</a>
     <a href="form.html">Adoption Form</a>
 
     <a href="contact.html" class="right">Contact</a>
    </nav>
-
  
 <div class = "adoption-form"></div>
     <h1>Adoption-Form</h1>
 
     <form>
 
-            <input type="text" id="name" name="name" placeholder="Enter your name">
-            <label for="name"></label>
+            <input type="text" id="username" name="username" placeholder="Enter your name">
+            <label for="username"></label>
             
             <input type="text" id="surname" name="surname" placeholder="Enter your surname"><br>
             <label for="surname"></label>
@@ -39,7 +38,7 @@
             <input type="email" id="email" name="email" placeholder="Enter your email"><br>
             <label for="email"></label>
 
-            <input type="text" id="phonenumber" name="phonenumber" placeholder="Enter your phonenumber">
+            <input type="number" id="phonenumber" name="phonenumber" placeholder="Enter your phonenumber">
             <label for="phonenumber"></label>
 
             <p>Have you ever adopted a pet before?:</p>
@@ -78,9 +77,11 @@
             <input type="checkbox" id="fish" name="fish" value="fish">
             <label for="fish">Fish</label><br>
            
-            <input type="submit" value="Submit">
-          
+            <input type="submit" onclick="datasaver()" value="Submit">
+             
     </form>
+
+    <button id="button" onclick="retrieveData()" ondblclick="validate()">load data</button>
     
 
  <footer>
@@ -88,6 +89,9 @@
      <h2>Copyright Act</h2>
      <p>Lorem ipsum dolor sit amet</p>
  </footer>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+ <script src="assets/js/script.js"></script>
 
 </body>
 </html>
