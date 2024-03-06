@@ -520,3 +520,23 @@ table
  }
 
  /*News section*/
+
+ 
+/*smaller screen*/
+@media (max-width: 600px)
+{
+   .flex-container
+   {
+      flex-direction: column;
+   }
+}
+
+/*smaller text*/
+@media (min-width: 1024)
+{
+   p
+   {
+      font-size: 18px;
+   }
+}
+
