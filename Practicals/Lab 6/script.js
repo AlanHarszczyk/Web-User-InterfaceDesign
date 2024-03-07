@@ -107,28 +107,80 @@ function handleDrop(event) {
 
 // Function to sort the weather log entries by city name
 function sortByCity() {
-    const logList = document.getElementById('logList');
+    //const logList = document.getElementById('logList');
+    const logList = $("#logList")[0];
     const logs = Array.from(logList.children);
 
     logs.sort((a, b) => {
-        const cityA = a.querySelector('span.city').textContent;
-        const cityB = b.querySelector('span.city').textContent;
-        return cityA.localeCompare(cityB);
+        //const cityA = a.querySelector('span.city').textContent;
+        //const cityB = b.querySelector('span.city').textContent;
+        const cityA = $(a).find("span.city").text()
+        const cityB = $(b).find("span.city").text()
+
+        let returnListType = null
+        if (ascendListCity) {
+            returnListType = cityA.localeCompare(cityB);
+        }
+        else {
+            returnListType = cityB.localeCompare(cityA);
+        }
+        return returnListType;
     });
+    ascendListCity = !ascendListCity;
 
     logs.forEach(log => logList.appendChild(log)); // Re-append to apply the new order
 }
-
 // Function to sort the weather log entries by temperature
 function sortByTemperature() {
-    const logList = document.getElementById('logList');
+    //const logList = document.getElementById('logList');
+    const logList = $("#logList")[0];
     const logs = Array.from(logList.children);
 
     logs.sort((a, b) => {
-        const tempA = parseFloat(a.querySelector('span.temperature').textContent.split(':')[1]);
-        const tempB = parseFloat(b.querySelector('span.temperature').textContent.split(':')[1]);
-        return tempA - tempB;
+        //const tempA = parseFloat(a.querySelector('span.temperature').textContent.split(':')[1]);
+        //const tempB = parseFloat(b.querySelector('span.temperature').textContent.split(':')[1]);
+        const tempA = parseFloat($(a).find("span.temperature").text().split(':')[1])
+        const tempB = parseFloat($(b).find("span.temperature").text().split(':')[1])
+
+        let returnListType = null
+        if (ascendListTemperature) {
+            returnListType = tempA - tempB;
+        }
+        else {
+            returnListType = tempB - tempA;
+        }
+        return returnListType;
     });
+    ascendListTemperature = !ascendListTemperature
 
     logs.forEach(log => logList.appendChild(log)); // Re-append to apply the new order
 }
+
+function sortByCondition() {
+    //const logList = document.getElementById("logList");
+    const logList = $("#logList")[0];
+    const logs = Array.from(logList.children)
+
+    logs.sort((a, b) => {
+        //const condtionA = a.querySelector('span.conditions').textContent;
+        //const condtionB = b.querySelector('span.conditions').textContent;
+        const condtionA = $(a).find("span.conditions").text()
+        const condtionB = $(b).find("span.conditions").text()
+
+        let returnListType = null
+        if (ascendListCondition) {
+            returnListType = condtionA.localeCompare(condtionB);
+        }
+        else {
+            returnListType = condtionB.localeCompare(condtionA);
+        }
+        return returnListType;
+    });
+    ascendListCondition = !ascendListCondition
+
+    logs.forEach(log => logList.appendChild(log)); // Re-append to apply the new order
+}
+
+let ascendListCity = true
+let ascendListTemperature = true
+let ascendListCondition = true
