@@ -126,9 +126,12 @@ function sortByCity() {
         }
         return returnListType;
     });
-    ascendListCity = !ascendListCity;
+    ascendListCity = !ascendListCity
 
     logs.forEach(log => logList.appendChild(log)); // Re-append to apply the new order
+
+    $(logs).hide()
+    fadeIn(0, logs)
 }
 // Function to sort the weather log entries by temperature
 function sortByTemperature() {
@@ -154,6 +157,9 @@ function sortByTemperature() {
     ascendListTemperature = !ascendListTemperature
 
     logs.forEach(log => logList.appendChild(log)); // Re-append to apply the new order
+
+    $(logs).hide()
+    fadeIn(0, logs)
 }
 
 function sortByCondition() {
@@ -179,8 +185,21 @@ function sortByCondition() {
     ascendListCondition = !ascendListCondition
 
     logs.forEach(log => logList.appendChild(log)); // Re-append to apply the new order
+
+    $(logs).hide()
+    fadeIn(0, logs)
 }
 
 let ascendListCity = true
 let ascendListTemperature = true
 let ascendListCondition = true
+
+function fadeIn(i, t_logs) {
+    length = $(t_logs).length
+
+    if (i < length) {
+        console.log(i)
+        $(t_logs[i]).fadeIn(500)
+        setTimeout(function () { reorderFadeIn(i += 1, t_logs); }, 100);
+    }
+}
