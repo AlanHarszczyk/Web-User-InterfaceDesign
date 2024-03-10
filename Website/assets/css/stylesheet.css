@@ -41,6 +41,7 @@
     margin-right: auto;
     border-radius: 8px;
     display: block;
+    float: left;
 }
 
 .me
@@ -51,11 +52,68 @@
 .me h1
 {
     text-align: center;
-    font-size: 40px;/*size*/
+    font-size: 45px;/*size*/
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
 .me p
+{
+    font-size: 35px;/*size*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contact
+{
+    float: left;
+    margin: 10px;
+    display: flex;
+   flex-wrap: nowrap;
+   background-color: #ffffff;
+}
+
+.contact > div 
+{
+   width: 500px;
+   margin: 30px;
+   text-align: center;
+   line-height: 75px;
+   font-size: 30px;
+}
+
+.contact h1
+{
+    text-align: center;
+    font-size: 30px;/*size*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contact p1
+{
+    font-size: 25px;/*size*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contact h2
+{
+    text-align: center;
+    font-size: 30px;/*size*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contact p2
+{
+    font-size: 25px;/*size*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contact h3
+{
+    text-align: center;
+    font-size: 30px;/*size*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contact p3
 {
     font-size: 25px;/*size*/
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
