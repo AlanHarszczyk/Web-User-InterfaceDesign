@@ -1,3 +1,4 @@
+/*Homepage Area*/
 .container 
 {
     position: relative;
@@ -117,6 +118,31 @@
 {
     font-size: 25px;/*size*/
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*3d page Area*/
+
+.home-button1
+{
+    background-color: rgb(4, 0, 214);
+}
+
+/*2d page Area*/
+
+.home-button2
+{
+    background-color: rgb(251, 255, 0);
+}
+
+/*Games Area*/
+.home-button3
+{
+    background-color: rgb(255, 0, 0);
+}
+
+/*Various Area*/
+.home-button4
+{
+    background-color: rgb(0, 255, 255);
 }
 
 @media (max-width: 600px)
