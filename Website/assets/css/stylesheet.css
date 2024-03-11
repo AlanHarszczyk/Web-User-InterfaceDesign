@@ -70,6 +70,7 @@
     display: flex;
    flex-wrap: nowrap;
    background-color: #ffffff;
+   gap: 20px;
 }
 
 .contact > div 
@@ -88,7 +89,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.contact p1
+.contact p
 {
     font-size: 25px;/*size*/
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -101,11 +102,6 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.contact p2
-{
-    font-size: 25px;/*size*/
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 
 .contact h3
 {
@@ -114,11 +110,6 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.contact p3
-{
-    font-size: 25px;/*size*/
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 /*3d page Area*/
 
 .home-button1
