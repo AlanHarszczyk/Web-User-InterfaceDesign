@@ -117,6 +117,46 @@
     background-color: rgb(4, 0, 214);
 }
 
+.grid-container-1 
+{
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .grid-item 
+  {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+  }
+  
+  .item1 
+  {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+  }
+  
+  .backstory-1
+  {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+  }
+
+  .backstory-1 h1
+  {
+    text-align: center;
+    font-size: 30px;/*size*/
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  }
+
+  .backstory-1 p
+  {
+    font-size: 20px;/*size*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+ 
+
 /*2d page Area*/
 
 .home-button2
@@ -139,6 +179,11 @@
 @media (max-width: 600px)
 {
    .flex-container
+   {
+      flex-direction: column;
+   }
+
+   .contact
    {
       flex-direction: column;
    }
