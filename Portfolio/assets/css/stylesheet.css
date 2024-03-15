@@ -139,13 +139,13 @@
   .backstory-1 h1
 {
     text-align: center;
-    font-size: 30px;/*size*/
+    font-size: 40px;/*size*/
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
   .backstory-1 p
 {
-    font-size: 20px;/*size*/
+    font-size: 30px;/*size*/
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
  
@@ -171,13 +171,13 @@
   .backstory-2 h1
 {
     text-align: center;
-    font-size: 30px;/*size*/
+    font-size: 40px;/*size*/
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
   .backstory-2 p
 {
-    font-size: 20px;/*size*/
+    font-size: 30px;/*size*/
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -204,13 +204,13 @@
   .backstory-3 h1
 {
     text-align: center;
-    font-size: 30px;/*size*/
+    font-size: 40px;/*size*/
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
   .backstory-3 p
 {
-    font-size: 20px;/*size*/
+    font-size: 30px;/*size*/
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -228,30 +228,33 @@
     padding: 10px;
 }
   
-  .image-1
+  .image-1-2d
 {
     grid-column: 1 / span 2;
     grid-row: 1;
     padding: 10px;
+    padding-left: 300px;
 }
 
-.image-2
+.image-2-2d
 {
     grid-column: 2 / span 2;
     grid-row: 1;
     padding: 10px;
+    padding-left: 300px;
 }
   
   .backstory-1 h1
 {
     text-align: center;
-    font-size: 30px;/*size*/
+    font-size: 40px;/*size*/
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    
 }
 
   .backstory-1 p
 {
-    font-size: 20px;/*size*/
+    font-size: 30px;/*size*/
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -282,12 +285,45 @@
 
 }
 
-@media (min-width: 1024)
+@media only screen and (max-width: 600px)
+
 {
-   p
+    .backstory-1 h1
    {
-      font-size: 10px;
+      font-size: 20px;
+      
    }
+
+   .backstory-1 p
+   {
+      font-size: 13px;
+      
+   }
+
+   .backstory-2 h1
+   {
+     font-size: 20px;
+     
+   }
+
+   .backstory-2 p
+   {
+     font-size: 13px;
+     
+   }
+
+   .backstory-3 h1
+   {
+     font-size: 20px;
+     
+   }
+
+   .backstory-3 p
+   {
+      font-size: 13px;
+      
+   }
+
 }
  
   
