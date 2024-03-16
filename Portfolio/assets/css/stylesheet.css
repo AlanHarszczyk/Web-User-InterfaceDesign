@@ -158,13 +158,13 @@
   
   .image-2-3d
 {
-    grid-column: 3 / span 2;
+    grid-column: 1 / span 2;
     grid-row: 1;
 }
   
   .backstory-2
 {
-    grid-column: 1;
+    grid-column: 3;
     grid-row: 1 / span 2;
 }
 
@@ -190,14 +190,14 @@
   
   .image-3-3d
 {
-    grid-column: 3 / span 2;
+    grid-column: 1 / span 2;
     grid-row: 1;
     gap: 20px;
 }
   
   .backstory-3
 {
-    grid-column: 1;
+    grid-column: 3;
     grid-row: 1 / span 2;
 }
 
@@ -213,6 +213,8 @@
     font-size: 30px;/*size*/
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+
 
 /*2d page Area*/
 
@@ -233,7 +235,7 @@
     grid-column: 1 / span 2;
     grid-row: 1;
     padding: 10px;
-    padding-left: 300px;
+    padding-left: 150px;
 }
 
 .image-2-2d
@@ -241,7 +243,7 @@
     grid-column: 2 / span 2;
     grid-row: 1;
     padding: 10px;
-    padding-left: 300px;
+    padding-left: 150px;
 }
   
   .backstory-1 h1
@@ -306,13 +308,13 @@
   
   .image-2-games
 {
-    grid-column: 3 / span 2;
+    grid-column: 1 / span 2;
     grid-row: 1;
 }
   
   .backstory-2
 {
-    grid-column: 1;
+    grid-column: 3;
     grid-row: 1 / span 2;
 }
 
@@ -338,14 +340,14 @@
   
   .image-3-games
 {
-    grid-column: 3 / span 2;
+    grid-column: 1 / span 2;
     grid-row: 1;
     gap: 20px;
 }
   
   .backstory-3
 {
-    grid-column: 1;
+    grid-column: 3;
     grid-row: 1 / span 2;
 }
 
@@ -368,6 +370,104 @@
     background-color: rgb(0, 255, 255);
 }
 
+.grid-container-1 
+{
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+}
+  
+  .image-1-misc
+{
+    grid-column: 1 / span 2;
+    grid-row: 1;
+}
+  
+  .backstory-1
+{
+    grid-column: 3;
+    grid-row: 1 / span 2;
+}
+
+  .backstory-1 h1
+{
+    text-align: center;
+    font-size: 40px;/*size*/
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+  .backstory-1 p
+{
+    font-size: 30px;/*size*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ 
+.grid-container-2 
+{
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+}
+  
+  .image-2-misc
+{
+    grid-column: 1 / span 2;
+    grid-row: 1;
+}
+  
+  .backstory-2
+{
+    grid-column: 3;
+    grid-row: 1 / span 2;
+}
+
+  .backstory-2 h1
+{
+    text-align: center;
+    font-size: 40px;/*size*/
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+  .backstory-2 p
+{
+    font-size: 30px;/*size*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.grid-container-3
+{
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+}
+  
+  .image-3-misc
+{
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    gap: 20px;
+}
+  
+  .backstory-3
+{
+    grid-column: 3;
+    grid-row: 1 / span 2;
+}
+
+  .backstory-3 h1
+{
+    text-align: center;
+    font-size: 40px;/*size*/
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+  .backstory-3 p
+{
+    font-size: 30px;/*size*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
 @media only screen and (max-width: 600px)
 
 {
@@ -384,39 +484,106 @@
 
     .backstory-1 h1
    {
-      font-size: 20px;
-      
+      font-size: 25px;
    }
 
    .backstory-1 p
    {
-      font-size: 13px;
-      
+      font-size: 20px; 
    }
 
    .backstory-2 h1
    {
-     font-size: 20px;
-     
+     font-size: 25px; 
    }
 
    .backstory-2 p
    {
-     font-size: 13px;
-     
+     font-size: 20px; 
    }
 
    .backstory-3 h1
    {
-     font-size: 20px;
-     
+     font-size: 25px;
    }
 
    .backstory-3 p
    {
-      font-size: 13px;
-      
+      font-size: 20px;  
    }
+
+   .image-1-3d
+   {
+     grid-column: 3;
+     grid-row: 3;
+   }
+
+   .image-2-3d
+   {
+     grid-column: 2;
+     grid-row: 3;
+   }
+
+   .image-3-3d
+   {
+     grid-column: 3;
+     grid-row: 3;
+   }
+
+   .image-1-2d
+   {
+     grid-column: 3;
+     grid-row: 3;
+   }
+
+   .image-2-2d
+   {
+     grid-column: 3;
+     grid-row: 3;
+   }
+
+   .image-3-2d
+   {
+     grid-column: 3;
+     grid-row: 3;
+   }
+
+   .image-1-games
+   {
+     grid-column: 3;
+     grid-row: 3;
+   }
+
+   .image-2-games
+   {
+     grid-column: 3;
+     grid-row: 3;
+   }
+
+   .image-3-games
+   {
+     grid-column: 3;
+     grid-row: 3;
+   }
+
+   .image-1-misc
+   {
+     grid-column: 3;
+     grid-row: 3;
+   }
+
+   .image-2-misc
+   {
+     grid-column: 3;
+     grid-row: 3;
+   }
+
+   .image-3-misc
+   {
+     grid-column: 3;
+     grid-row: 3;
+   }
+
 
 }
  
