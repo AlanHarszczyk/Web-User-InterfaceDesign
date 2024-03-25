@@ -548,6 +548,12 @@
      grid-row: 3;
    }
 
+   .image-4-2d
+   {
+     grid-column: 3;
+     grid-row: 3;
+   }
+
    .image-1-games
    {
      grid-column: 3;
